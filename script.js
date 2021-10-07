@@ -201,13 +201,13 @@ const goToSlide = function (slide) {
 goToSlide(0);
 
 // Next slide
-
 const nextSlide = function () {
   curSlide === maxSlide - 1 ? (curSlide = 0) : curSlide++;
 
   goToSlide(curSlide);
 };
 
+// Previous slide
 const prevSlide = function () {
   curSlide === 0 ? (curSlide = maxSlide - 1) : curSlide--;
 
